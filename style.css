@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@500&family=Roboto&display=swap');
+
+/*css variables*/
+@import url(partials/_variable.css);
+
+/*import global styling*/
+@import url(partials/_global.css);
+
+/* Header area */
+Header {
+    margin: 3rem;
+}
+
+.heading-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--title-color);
+}
