@@ -3,8 +3,19 @@
 /*css variables*/
 @import url(partials/_variable.css);
 
-/*import global styling*/
-@import url(partials/_global.css);
+/* common style */
+
+.primary-button {
+    outline: 0;
+    border: 0;
+    padding: 5px 15px;
+    background-color: var(--primary-color);
+    font-size: 10px;
+    font-weight: 700;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /* Header area */
 Header {
@@ -15,4 +26,86 @@ Header {
     font-size: 24px;
     font-weight: 700;
     color: var(--title-color);
+}
+
+/* main area */
+main {
+    margin: 5rem 8rem;
+}
+
+/* section-1:Introduction */
+.intro-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+.text-area {
+    /* display: flex;
+    flex-direction: column; */
+    width: 582px;
+    height: 270px;
+}
+
+.intro-title {
+    font-size: 52;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.image-area {
+    /* display: flex;
+    width: 100%; */
+    width: 440px;
+    height: 414px;
+}
+
+/* Section-2: Collection area */
+.collection-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.frame {
+    width: 329px;
+    height: 450px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+}
+
+.frame img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--title-color);
+}
+
+.fa-star {
+    font-size: 14px;
+    color: var(--primary-color)
+}
+
+.text,
+rating-number {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-color);
 }
