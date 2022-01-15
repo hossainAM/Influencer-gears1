@@ -271,6 +271,16 @@ textarea {
         text-align: center;
     }
 
+    .intro-area>.image-area {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .image-area img {
+        width: 90%;
+        height: auto;
+    }
+
     .image-gallery {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
