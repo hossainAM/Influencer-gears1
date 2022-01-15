@@ -9,7 +9,7 @@
     outline: 0;
     border: 0;
     padding: 5px 15px;
-    background-color: #99094c;
+    background-color: #99094c !important;
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
     font-weight: 700;
@@ -20,7 +20,7 @@
 
 .primary-button:hover,
 .primary-button:focus {
-    background: rgb(255, 94, 0);
+    background: rgb(255, 94, 0) !important;
     outline: 0;
 }
 
