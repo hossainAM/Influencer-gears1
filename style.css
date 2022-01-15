@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@500&family=Roboto&display=swap');
 
 /*css variables*/
-@import url(partials/_variable.css);
+/* @import url(partials/_variable.css); */
 
 /* common style */
 
@@ -9,8 +9,8 @@
     outline: 0;
     border: 0;
     padding: 5px 15px;
-    background-color: var(--primary-color);
-    font-family: var(--poppins);
+    background-color: ;
+    font-family: 'Poppins', sans-serif;
     font-size: 10px;
     font-weight: 700;
     color: whitesmoke;
