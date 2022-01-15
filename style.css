@@ -268,3 +268,34 @@ textarea {
     color: thistle;
     padding: 10px;
 }
+
+/* Media query */
+/* for mobile device */
+
+@media only screen and (max-width:688px) {
+    .intro-area {
+        grid-template-columns: 1fr;
+    }
+
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .explore {
+        margin-left: 100px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    /* .wrapper>* {
+        padding: .5em .5em;
+    } */
+
+}
+
+/* for tablet device */
+
+@media only screen and (mai-width:688px) and (max-width: 992px) {}
